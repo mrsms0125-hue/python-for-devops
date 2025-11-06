@@ -19,6 +19,22 @@ In programming, a data type is a classification or categorization that specifies
    - **set**: Represents sets (unordered collections of unique elements). Example: `my_set = {1, 2, 3}`
    - **frozenset**: Represents immutable sets. Example: `my_frozenset = frozenset([1, 2, 3])`
 
+<img width="905" height="464" alt="image" src="https://github.com/user-attachments/assets/ceffefe9-b135-485b-b23a-26e9014f905f" />
+      # List of deployment steps
+      steps = ["build", "test", "deploy"]
+      steps.append("monitor")
+      
+      # Immutable credentials
+      credentials = ("admin", "secure_pass")
+      
+      # Unique IP addresses from logs
+      ip_set = {"192.168.1.1", "10.0.0.2", "192.168.1.1"}  # Duplicate removed automatically
+      
+      # Check if IP is blocked
+      blocked_ips = {"10.0.0.2", "172.16.0.5"}
+      if "10.0.0.2" in blocked_ips:
+          print("Access denied")
+    
 5. **Boolean Type:**
    - **bool**: Represents Boolean values (`True` or `False`). Example: `is_valid = True`
 
