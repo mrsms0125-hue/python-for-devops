@@ -20,12 +20,15 @@ In programming, a data type is a classification or categorization that specifies
    - **frozenset**: Represents immutable sets. Example: `my_frozenset = frozenset([1, 2, 3])`
 
 <img width="905" height="464" alt="image" src="https://github.com/user-attachments/assets/ceffefe9-b135-485b-b23a-26e9014f905f" />
-      # List of deployment steps
-      steps = ["build", "test", "deploy"]
-      steps.append("monitor")
+        
+      
       
       # Immutable credentials
       credentials = ("admin", "secure_pass")
+
+       # List of deployment steps
+         steps = ["build", "test", "deploy"]
+         steps.append("monitor")
       
       # Unique IP addresses from logs
       ip_set = {"192.168.1.1", "10.0.0.2", "192.168.1.1"}  # Duplicate removed automatically
