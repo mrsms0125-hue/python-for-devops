@@ -26,9 +26,17 @@ In programming, a data type is a classification or categorization that specifies
       # Immutable credentials
       credentials = ("admin", "secure_pass")
 
+      network_config = ("https", 443)
+      protocol, port = network_config
+ 
+
        # List of deployment steps
          steps = ["build", "test", "deploy"]
          steps.append("monitor")
+
+         env_vars = ["DEBUG=False", "PORT=8080"]
+         env_vars[0] = "DEBUG=True"  # Toggle debug mode
+
       
       # Unique IP addresses from logs
       ip_set = {"192.168.1.1", "10.0.0.2", "192.168.1.1"}  # Duplicate removed automatically
